@@ -1,0 +1,319 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(15, 141, 43));    
+}
+header
+{
+    height: 100px;
+    background: url(d92c790a16b27d6bc403afe8f51a5c42.jpg) no-repeat ;
+    background-size: 20%;
+    background-position-x: 3%;
+    background-position-y: 50%;
+}
+header .caixa-categoria 
+{
+    width: 25%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 75px;
+}
+header .caixa-categoria input
+{
+    width: 80%;
+}
+.container2
+{
+    border-color: aquamarine;
+    border-style: solid;
+    border-radius: 25%;
+    background-color: rgb(158, 202, 54);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 125px;
+}
+.caixa-categoria h3{
+    text-align: center;
+}
+.container2 img
+{
+    padding-left: 10%;
+    width: 40%;
+}
+
+main
+{
+    margin-top: 0px;
+    width: 80%;
+    float: left;
+
+    box-sizing: border-box;
+}
+.main2
+{
+    float: left;
+    width: 20%;
+}
+.grid-container
+{    
+    width: 100%;
+    display:grid;
+    grid: 300px 300px 300px / 1fr 1fr 1fr;
+}
+.grid-container2
+{   
+    display: grid;
+    grid: 1fr;
+    row-gap: 2%;
+}
+.gri-item
+{
+    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgba(218, 218, 101, 0.411);
+}
+.gri-item img
+{
+    justify-content: center;
+    height: 150px;
+    margin-left: 10%;
+
+}
+main div article h4
+{
+    display: flow-root;
+    padding-left: 10px;
+}
+.caixa-poste article
+{
+    display: inline-block;
+}
+aside 
+{
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+aside2
+{
+    color:rgb(250, 252, 250);
+    height: 165px;
+    width: 100%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
+.aside2 div
+{
+
+    padding-left: 0px ;
+}
+aside2 div h1
+{
+    text-align: center;
+}
+aside2 div h2
+{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 75%;
+}
+div p
+{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 0, 0)
+}
+.caixa-categoria-debaixo input
+{
+    padding-left: 5%;
+    margin-top: 20px;
+    width: 50%;
+}
+footer
+{
+
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    
+}
+footer .boxs
+{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+footer .boxs:nth-child(4)
+{
+    width: 400px;
+}   
+.boxs h2
+{
+    padding-left: 20%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.boxs ul li{
+    padding-left: 35%;
+    align-self: center;
+    text-justify:
+    margin: 10px 0px;
+    list-style: none;
+}
+.boxs ul li a{
+    color:#ddd;
+    text-decoration: none;
+}
+.boxs ul li a:hover{
+    color:#fff;
+}
+.boxs ul img{
+    padding-left: 30px;
+}
+/* componente menu principal */
+.caixa-menuprincipal
+{
+    float: right;     
+    padding: 30px;
+}
+.caixa-menuprincipal ul
+{
+    list-style-type: none;
+}
+.caixa-menuprincipal ul li
+{
+    display: inline-block;
+}
+.caixa-menuprincipal ul li a
+{
+    text-decoration: none;
+    color: rgb(15, 156, 33);
+    font-weight: bold;
+    padding: 10px;
+}
+.caixa-menuprincipal ul li a:hover
+{
+    background-color: blueviolet;
+}
+.texto-busca{
+    height: 315px;
+    text-align: center;
+}
+.texto-busca h3{
+  color:  rgb(15, 156, 33)
+}
+.opcoes{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.texto-valor input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Slideshow container */
+.textinho{
+    width: 50%;
+    float: left;
+}
+
+.slideshow-container {
+    width: 50%;
+    float: left;
+    max-width: 1000px;
+    margin-left: 18%;
+    margin-top: 2%;
+  }
+  
+  /* Hide the images by default */
+.mySlides {
+    display:none;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 42%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
